@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Sync Information"
+        android:key="sync_category">
+
+        <CheckBoxPreference
+            android:key="perform_sync"
+            android:summary="Enable or disable data sync"
+            android:title="Enable Auto Sync"
+            android:defaultValue="true"/>
+
+        <ListPreference
+            android:key="sync_interval"
+            android:title="Sync interval"
+            android:summary="Define how often sync will be performed"
+            android:defaultValue="1000"
+            android:entries="@array/updateInterval"
+            android:entryValues="@array/updateIntervalValues"
+            android:dependency="perform_sync"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

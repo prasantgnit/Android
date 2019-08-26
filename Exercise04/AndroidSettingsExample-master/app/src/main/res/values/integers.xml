@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="Ringing_seek_bar_default">5</integer>
+    <integer name="Ringing_seek_bar_max">10</integer>
+    <integer name="Ringing_seek_bar_min">2</integer>
+
+    <integer name="Media_seek_bar_default">2</integer>
+    <integer name="Media_seek_bar_max">10</integer>
+    <integer name="Media_seek_bar_min">0</integer>
+</resources>

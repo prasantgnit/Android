@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Sound"
+        android:key="custom_category">
+
+        <SeekBarPreference
+            android:key="seek_bar_Ring_volume"
+            android:title="Ring Volume"
+            android:defaultValue="@integer/Ringing_seek_bar_default"
+            android:max="@integer/Ringing_seek_bar_max" />
+
+        <SeekBarPreference
+            android:key="seek_bar_Media_volume"
+            android:title="Media Volume"
+            android:defaultValue="@integer/Media_seek_bar_default"
+            android:max="@integer/Media_seek_bar_max" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:id="@+id/linearlayoubase"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+    android:weightSum="2"
+        android:clickable="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearlayoulist"
+            android:orientation="vertical"
+             android:layout_weight="0"   >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerview"
+            android:scrollbars="vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearlayoumovie"
+            android:orientation="vertical"
+            android:layout_weight="1"   >
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="107dp"
+                    android:layout_height="69dp"
+                    android:padding="1dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:text="TextView"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/cast"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:padding="1dp"
+                    android:text="TextView"
+                    android:textSize="8sp" />
+
+                <TextView
+                    android:id="@+id/disp"
+                    android:layout_width="match_parent"
+                    android:layout_height="191dp"
+                    android:padding="1dp"
+                    android:text="TextView"
+                    android:textSize="8sp" />
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="365dp"
+    android:layout_gravity="bottom"
+    android:clickable="true"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="114dp"
+        android:layout_height="108dp"
+        android:padding="5dp"
+        android:src="@drawable/pic01" />
+
+    <TextView
+        android:id="@+id/textViewname"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:padding="1dp"
+        android:text="NAME"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewcast"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:padding="1dp"
+        android:text="CAST" />
+
+    <TextView
+        android:id="@+id/textViewdesp"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:padding="1dp"
+        android:text="DESP" />
+
+</LinearLayout>
